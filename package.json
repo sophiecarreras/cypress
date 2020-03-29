@@ -13,9 +13,9 @@
   },
   "scripts": {
     "start": "npx cypress open",
-    "cypress": "npx cypress run",
-    "report": "node ./cypress/plugins/reporter.js",
-    "test": "npm run cypress && npm run report"
+    "cy:run": "node ./cypress/support/utils/cypressRunner.js",
+    "cy:report": "node ./cypress/support/utils/reporter.js",
+    "test": "npm run cy:run && npm run cy:report"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,

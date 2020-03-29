@@ -13,7 +13,7 @@ report.generate({
             name: 'chrome',
             version: 'Latest'
         },
-        device: 'Local test machine',
+        device: 'Local',
         platform: {
             name: 'osx',
             version: 'Catalina'
