@@ -1,9 +1,16 @@
 # shapermintcypress
 Cypress framework for Shapermint e-commerce
 
-# What do I do?
-npm install
-npm test
+### Install
+- npm install
 
-# Useful links
-Cucumber (Gherkin) Full Support for Visual Studio Code: https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete
+### Run using CLI
+- npm test
+
+### Run using Test Runner
+- npm start
+
+### Useful links
+- [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell "Cypress Documention")
+- [Cucumber Documentation](https://cucumber.io/docs/guides/overview/ "Cucumber Documentation")
+- [Cucumber (Gherkin) Full Support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete "Cucumber (Gherkin) Full Support for Visual Studio Code")
