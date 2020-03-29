@@ -1,0 +1,31 @@
+{
+  "name": "shapermintcypress",
+  "version": "1.0.0",
+  "description": "automation",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.2.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "multiple-cucumber-html-reporter": "^1.16.0"
+  },
+  "scripts": {
+    "start": "npx cypress open",
+    "cypress": "npx cypress run",
+    "report": "node ./cypress/plugins/reporter.js",
+    "test": "npm run cypress && npm run report"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Sophie Carreras",
+  "license": "ISC"
+}
