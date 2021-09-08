@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "automation",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  },
   "devDependencies": {
     "cypress": "^8.3.1",
     "cypress-cucumber-preprocessor": "^2.1.0",
     "eslint-plugin-cypress": "^2.10.3",
-    "multiple-cucumber-html-reporter": "^1.16.0"
+    "multiple-cucumber-html-reporter": "^1.16.0",
+    "cypress-iframe": "^1.0.1"
   },
   "scripts": {
     "start": "npx cypress open",
