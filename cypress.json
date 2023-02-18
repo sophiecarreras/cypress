@@ -1,9 +1,0 @@
-{
-  "testFiles": "**/*.{feature,features}",
-  "env": {
-    "TAGS": "not @ignore"
-  },
-  "baseUrl": "https://airtable.com/login",       
-  "ignoreTestFiles": "*.js",
-  "chromeWebSecurity": false
-}
