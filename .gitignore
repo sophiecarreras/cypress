@@ -4,5 +4,5 @@ cypress/videos
 cypress/screenshots
 cypress/package-lock.json
 .vscode
-.node_modules/
+node_modules/
 yarn.lock
