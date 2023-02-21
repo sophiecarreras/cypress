@@ -1,5 +1,5 @@
 # Cypress
-Cypress framework for NN.
+Cypress framework + JS.
 
 ### Requirements
 - [Node.js](https://nodejs.org/en/download/ "Download Node.js").
