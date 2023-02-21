@@ -7,7 +7,7 @@ Cypress framework for NN.
 - [Visual Studio Code](https://code.visualstudio.com/ "Download Visual Studio Code") or similar editor.
 
 ### Install
-`$ yarn add`
+`$ yarn add cypress --dev`
 
 ### Run
 `$ yarn run cypress open`
